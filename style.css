@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 10px;
+  column-gap: 30px;
+
+  /* indiferente: */
+  background-color: #000000;
+  padding: 16px;
+  height: 100px;
+}
+
+.bloco-1 {
+  /* indiferente: */
+  background-color: #c6d8f0;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 16px;
+}
+
+.bloco-2 {
+  /* indiferente: */
+  background-color: #d8bfd8;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 6px;
+}
+
+.bloco-3 {
+  /* indiferente: */
+  background-color: #ff9999;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 16px;
+}
+
+.logo{
+  position:absolute;
+  top: 20px;
+  left: 890px;
+  text-align: center;
+}
+
+.menu{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: -600px;
+  top: 40px;
+}
+
+body{
+  color: white;
+  background-color: #ffffff;
+}
+
+li{ 
+  display: inline-block;
+
+  margin: 80px;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: white;
+}
+a:link{
+  text-decoration: none;
+  border: red 5px;
+}
+
+.telainteira{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 80px;
+  height: 900px;
+  
+
+  
+}
+.foto{
+  position: relative;
+  top: 500px;
+}
+.patrocinador01{
+  
+  height: 100px;
+  margin-top: 5PX;
+  position: absolute;
+  left: 30px;
+}
+.header{
+  width: 500px;
+  height: 500px;
+}
+
+.divs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.patrocinio{
+  display: inline-block;
+  align-content: center;
+  position: relative;
+  left: -30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Roboto', sans-serif;
+  
+}
+p {
+  margin-left: -0px;
+  margin-top: 10px;
+  font-family: 'Climate Crisis', cursive;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+}
+
